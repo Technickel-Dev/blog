@@ -19,7 +19,7 @@ You are most likely familiar with the most popular type of graphic called _Raste
 
 <div style="text-align:center">
 
-![Difference between bitmap and vector images](/blog/assets/raster_vs_vector.png "Raster Vs. Vector")
+![Difference between bitmap and vector images](/blog/assets/images/raster_vs_vector.png "Raster Vs. Vector")
 
 _Difference between raster and vector images. ([Yug et al.](https://commons.wikimedia.org/w/index.php?curid=1183592))_
 
@@ -53,7 +53,7 @@ Voila! The computer handles the rest by drawing the circle using the parameters 
 
 <div style="text-align:center">
 
-![SVG of a yellow circle with green outline](/blog/assets/yellow_circle_svg.png "Yellow Circle SVG")
+![SVG of a yellow circle with green outline](/blog/assets/images/yellow_circle_svg.png "Yellow Circle SVG")
 
 _SVG of a yellow circle with green outline_
 
@@ -69,7 +69,7 @@ The use of an SVG is only limited by your technology and imagination. Some uses 
 
 <div style="text-align:center">
 
-![SVG celebrating Canada Day](/blog/assets/canada_day_svg.png "Canada Day SVG")
+![SVG celebrating Canada Day](/blog/assets/images/canada_day_svg.png "Canada Day SVG")
 
 _SVG celebrating Canada Day_
 

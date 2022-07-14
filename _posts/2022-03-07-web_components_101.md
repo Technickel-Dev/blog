@@ -16,7 +16,7 @@ tags:
 
 You may have heard of components in the past and that's because it's not a new concept. Components have been used across many web frameworks as a way to divide pieces of the frontend into re-usable chunks of code. Web components are no different, they make use of native web technologies to encapsulate logic into a re-usable and maintainable unit of code so that you can implement framework agnostic components.
 
-Web components can be coded using plain js, HTML and CSS but there are plenty of libraries that aim to make it easier to write them. A good comparison of web component libraries can be found [here](https://webcomponents.dev/blog/assets/all-the-ways-to-make-a-web-component/). We are going to focus on plain old native versions rather than using a library. The technologies behind web components can primarily be broken down into 3 parts that we will cover in this 101 lesson. These parts are Custom Elements, The Shadow Dom and HTML Templates.
+Web components can be coded using plain js, HTML and CSS but there are plenty of libraries that aim to make it easier to write them. A good comparison of web component libraries can be found [here](https://webcomponents.dev/blog/assets/images/all-the-ways-to-make-a-web-component/). We are going to focus on plain old native versions rather than using a library. The technologies behind web components can primarily be broken down into 3 parts that we will cover in this 101 lesson. These parts are Custom Elements, The Shadow Dom and HTML Templates.
 
 For this demo, we are going to create a web component that shows a lightbulb.
 
@@ -65,7 +65,7 @@ And voila! If you open the html file on a browser you can see our custom element
 
 <div style="text-align:center">
 
-![Lightbulb Custom Component](/blog/assets/custom_component.png "Lightbulb Custom Component")
+![Lightbulb Custom Component](/blog/assets/images/custom_component.png "Lightbulb Custom Component")
 
 _Lightbulb Custom Component_
 
@@ -100,13 +100,13 @@ window.customElements.define("lightbulb-component", Lightbulb);
 
 We added and removed some lines so lets go in order and talk about each one. The class itself and the constructor with _super_ hasn't changed. We did add 2 lines here. The first line creates the _Shadow Root_, which is just the root of the Shadow DOM. Since we are calling _attachShadow_ on _this_, we are attaching the Shadow Root to the Custom Element itself. The other thing to note is that we are attaching the root in _open_ mode. All this mode does is allows the Shadow DOM to be accessed by js outside of the element. If it were set to closed, that access would be unavailable.
 
-Since we initialized the Shadow Root into a variable, we will then use that variable to set the contents of the Custom Element. In the first part, we set the content of the element in the _connectedCallback_ because we needed the element to wait for a time in it's lifecycle where it could attach to the DOM. Since the Shadow DOM is internal we don't need that lifecycle hook anymore and can change the contents in the constructor. Since text is boring I've swapped the _This is our Lightbulb component_ text for an SVG of a lightbulb. If you want to learn more about SVGs, check out [my other blog post on the topic](https://technickel.dev/blog/assets/posts/svgs-a-scalable-graphics-format). Finally, nothing has changed with our definition, so we are done!
+Since we initialized the Shadow Root into a variable, we will then use that variable to set the contents of the Custom Element. In the first part, we set the content of the element in the _connectedCallback_ because we needed the element to wait for a time in it's lifecycle where it could attach to the DOM. Since the Shadow DOM is internal we don't need that lifecycle hook anymore and can change the contents in the constructor. Since text is boring I've swapped the _This is our Lightbulb component_ text for an SVG of a lightbulb. If you want to learn more about SVGs, check out [my other blog post on the topic](https://technickel.dev/blog/assets/images/posts/svgs-a-scalable-graphics-format). Finally, nothing has changed with our definition, so we are done!
 
 If we took a look at the Custom Element before we implemented the Shadow DOM, we would see the SVG contents of the element plainly in the DOM.
 
 <div style="text-align:center">
 
-![No Shadow DOM](/blog/assets/no_shadow_dom.png "No Shadow DOM")
+![No Shadow DOM](/blog/assets/images/no_shadow_dom.png "No Shadow DOM")
 
 _No Shadow DOM_
 
@@ -116,7 +116,7 @@ When we implement the Shadow DOM, you can see a distinct difference in how the l
 
 <div style="text-align:center">
 
-![Shadow DOM](/blog/assets/shadow_dom.png "Shadow DOM")
+![Shadow DOM](/blog/assets/images/shadow_dom.png "Shadow DOM")
 
 _Shadow DOM_
 
@@ -191,7 +191,7 @@ As you can see we now have two instances of the lightbulb component. The first o
 
 <div style="text-align:center">
 
-![Lightbulb component using slots](/blog/assets/slots.png "Lightbulb component using slots")
+![Lightbulb component using slots](/blog/assets/images/slots.png "Lightbulb component using slots")
 
 _Lightbulb component using slots_
 

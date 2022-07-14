@@ -34,7 +34,7 @@ Log in or sign up to [Brave Creators](https://creators.brave.com/) if you haven'
 
 <div style="text-align:center">
 
-![Add Brave Creators Channel](/blog/assets/create_channel.png "Add Brave Creators Channel")
+![Add Brave Creators Channel](/blog/assets/images/create_channel.png "Add Brave Creators Channel")
 
 _Add a Channel_
 
@@ -44,7 +44,7 @@ Choose website as the channel and enter in your apex domain. An apex domain is t
 
 <div style="text-align:center">
 
-![Enter Apex Domain](/blog/assets/choose_domain.png "Enter Apex Domain")
+![Enter Apex Domain](/blog/assets/images/choose_domain.png "Enter Apex Domain")
 
 _Enter Your Apex Domain_
 
@@ -54,7 +54,7 @@ Next you'll be given the choice to do the File Upload Verification or the DNS Ve
 
 <div style="text-align:center">
 
-![Choose DNS Verification](/blog/assets/edit_dns.png "Choose DNS Verification")
+![Choose DNS Verification](/blog/assets/images/edit_dns.png "Choose DNS Verification")
 
 _Choose DNS Verification_
 
@@ -64,7 +64,7 @@ We are finally at the end of this step, all thats left to do is copy the string 
 
 <div style="text-align:center">
 
-![Copy TXT Value](/blog/assets/txt_value.png "Copy TXT Value")
+![Copy TXT Value](/blog/assets/images/txt_value.png "Copy TXT Value")
 
 _Copy TXT Value_
 
@@ -76,7 +76,7 @@ Log into your domain registrar, ie. the place where you bought your domain. My d
 
 <div style="text-align:center">
 
-![Navigate to DNS Area](/blog/assets/dns_page.png "Navigate to DNS Area")
+![Navigate to DNS Area](/blog/assets/images/dns_page.png "Navigate to DNS Area")
 
 _Navigate to DNS Area_
 
@@ -86,7 +86,7 @@ It should bring you to a page that may or may not have content already on it dep
 
 <div style="text-align:center">
 
-![Manage Custom Records](/blog/assets/manage_custom_records.png "Manage Custom Records")
+![Manage Custom Records](/blog/assets/images/manage_custom_records.png "Manage Custom Records")
 
 _Manage Custom Records_
 
@@ -103,7 +103,7 @@ Now that we understand what each piece of the puzzle does, all that's left to do
 
 <div style="text-align:center">
 
-![Create the DNS TXT Record](/blog/assets/dns_txt_record.png "Create the DNS TXT Record")
+![Create the DNS TXT Record](/blog/assets/images/dns_txt_record.png "Create the DNS TXT Record")
 
 _Create the DNS TXT Record_
 
@@ -115,7 +115,7 @@ The hard part is now done! Since DNS takes a bit to update, it make take up to 2
 
 <div style="text-align:center">
 
-![Verify DNS Record](/blog/assets/verify.png "Verify DNS Record")
+![Verify DNS Record](/blog/assets/images/verify.png "Verify DNS Record")
 
 _Verify DNS Record_
 
@@ -125,7 +125,7 @@ After your domain is verified you should be able to navigate to your website usi
 
 <div style="text-align:center">
 
-![Confirm Verification](/blog/assets/verified.png "Confirm Verification")
+![Confirm Verification](/blog/assets/images/verified.png "Confirm Verification")
 
 _Confirm Verification_
 
